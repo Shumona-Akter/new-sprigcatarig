@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --first-cl: #778E88;
+    --second-cl:#70718D;
+    --primary-cl: #ACC3BD;
+    --white-cl: #fff;
+    --ff1: 'DM Sans', sans-serif;
+    --ff2: 'DM Serif Display', serif;
+
+}
+
+/*  */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, li{
+    list-style: none;
+}
+.navber-style{
+    display: flex;
+    justify-content: space-between;
+}
+/* font family */
+.font-dm{
+    font-family: var(--ff1);
+}
+.font-display{
+    font-family: var(--ff2);
+}
+
+.top-heading{
+    font-family:var(--ff1) ;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: var(--first-cl);
+    padding-top: 10px ;
+    text-transform: uppercase;
+}
+.top-heading:hover{
+    color: var(--first-cl);
+}
+
+.para{
+    font-family: var(--ff1);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--second-cl);
+    line-height: 22px;
+    text-align: left;
+    padding-top: 35px;
+}
+.main-heading{
+    font-family: var(--ff2);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30.5px;
+    color: var(--first-cl);
+    text-transform: capitalize;
+    padding:35px 0 0 35px;
+    text-align: left;
+
+}
+/* padding 35 */
+
+.event-heading{
+    font-family: var(--ff2);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: var(--first-cl);
+    text-transform: uppercase;
+    position: relative;
+}
+.event-heading:hover{
+    color: var(--first-cl);
+}
+
+.item .active-corporate  {
+    position: relative;
+  }
+.item .active-cooking{
+    position: relative;
+
+  }
+  .item .active-cooking::after  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: -23px;
+    width: 20px;
+    padding: 10px;
+    background: url(../images/leep.png) no-repeat center ;
+    
+  }
+  .item .active-underline  {
+    position: relative;
+  } 
+  .item .active-underline::before  {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 120px;
+    width: 100%;
+    border-bottom: 1px solid var(--primary-cl);
+    
+  }
+  .padding-cooking-bottom{
+    height: 300px;
+  }
+  .item .active-corporate::after  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 96px;
+    width: 20px;
+    padding: 10px;
+    background: url(../images/leep.png) no-repeat center ;
+    
+  }
+  
+  .item .active-social  {
+    position: relative;
+  }
+  .item .active-social::after  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 60px;
+    padding: 10px;
+    background: url(../images/leep.png) no-repeat center ;
+    
+  }
+  .item .active-wedding   {
+    position: relative;
+  }
+  .item .active-wedding::after  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 70px;
+    padding: 10px;
+    background: url(../images/leep.png) no-repeat center ;
+    
+  }
+.center{
+    text-align: center;
+}
+
+.btn-all{
+    display: inline-block;
+    padding: 14px 16px;
+    background: var(--primary-cl);
+    color: var(--white-cl);
+    font-family: var(--ff2);
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 13px 0;
+    transition: all linear 0.3s;
+}
+.btn-all:hover{
+    background-color: #95ADA7;
+    color: var(--white-cl);
+}
+.left{
+    text-align: left;
+}
+.bottom-heading{
+    font-family: var(--ff2);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5;
+    color: var(--first-cl);
+}
+
+
+/* body */
+.bg-img{
+    background: url(../images/background.png) no-repeat center / cover;
+    padding: 20px 0 39px 0;
+    
+}
+/* spaching */
+.py-14{
+    padding: 14px;
+}
+.pt-35{
+    padding-top: 35px;
+}
+.details-spacing{
+    padding: 0 14px 14px 14px;
+}
+.margin{
+    margin:  0 15px;
+}
+/* width */
+.width-100{
+    width: 100%;
+    border-top: 1px solid #95ADA7 ;
+    border-bottom: 1px solid #95ADA7;
+    border-left: 1px solid #95ADA7;
+    border-right: 1px solid #95ADA7 ;
+}
+.details-border{
+    width: 100%;
+    border-top: 1px solid #95ADA7 ;
+    border-bottom: 1px solid #95ADA7;
+    border-left: 1px solid #95ADA7;
+    border-right: 1px solid #95ADA7 ;
+}
+/* details part */
+.details-item{
+    height: 100%;
+}
+.details-item img{
+    height: 100%;
+}
+/* nav ber */
+
+
+/* 
+nab ebebeebe==========
+*/
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--primary-cl);
+    flex-wrap: nowrap;
+  }
+
+  .nav__item {
+    padding: 1rem 0;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 14px 10px;
+    text-transform: capitalize;
+    font-family: var(--ff2);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--white-cl);
+    transition: all linear;
+  }
+  .nav__link:hover {
+    color: var(--white-cl);
+  }
+
+  .nav__link.active  {
+    position: relative;
+  }
+  .nav__link.active::after  {
+    content: " ";
+    position: absolute;
+    bottom: -22px;
+    left: 40%;
+    width: 13.79px;
+    height: 13.79px;
+    transform: rotate(45deg);
+    background: var(--primary-cl);
+  }
+
+/*  */
+/* event */
+.event-item h1{
+    position: relative;
+}
+.event-item h1::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: -24px;
+    padding: 15px;
+    background: url(../images/leep.png) no-repeat;
+}
+.h-300px{
+    height: 200px;
+}
+
+/* contact part */
+.contact-heading{
+    font-family: var(--ff2);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--first-cl);
+    padding-top: 52px;
+    text-transform: uppercase;
+   
+}
+
+.contact-para{
+    font-family: var(--ff1);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--first-cl);
+}
+.fs-14px{
+    font-size: 14px;
+}
+ input{
+    width: 100%;
+    background: #ACC3BD33;
+    padding: 10px;
+    border: 1px solid var(--first-cl);
+    outline: none;
+    color: #353535;
+    margin-top: 16px;
+}
+.width-75px{
+    width: 75px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    
+    outline: none;
+    color: #353535;
+    margin-top: 16px;
+}
+
+.btn-submit{
+    display: inline-block;
+    padding: 14px 83px;
+    background: var(--primary-cl);
+    color: var(--white-cl);
+    font-family: var(--ff2);
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 13px 0;
+    transition: all linear 0.3s;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+/* responsive menu bar */
+.btn-flex{
+    display: flex;
+    justify-content: end;
+}
+.sprig{
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.sprig .bar, .sprig::after, .sprig::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #6E837E;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.sprig.is-active::before{
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+.sprig.is-active::after{
+    transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.sprig.is-active .bar{
+    opacity: 0;
+}
+
+.mobile-nav{
+    text-align: center;
+    transition: all linear 0.4s;
+    display: none;
+    opacity: 0;
+}
+.mobile-nav.is-active{
+    display: block;
+    opacity: 1;
+}
+.mobile-nav a{
+    background: var(--primary-cl);
+    padding: 24px 0;
+    display: block;
+    text-transform: uppercase;
+    font-family: var(--ff2);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--white-cl);
+    transition: all linear;
+    border-top: 1px solid #CAD6D3;
+   
+}
+
+.mobile-nav a:hover {
+    color: var(--white-cl);
+  }
+
+  /* banner imgaes */
+  .banner-img{
+    width: 200px;
+  }
+/* revision */
+
+/* menu img */
+.menu-items-img{
+    width: 40px;
+    height: 100%;
+    background: rgba(152, 188, 88, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu-items-name{
+    font-family: var(--ff1);
+    font-weight: 500;
+    size: 21px;
+    letter-spacing: 5px;
+    color: #778E88;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    text-align: center;
+
+}
+
+.success{
+    background-color: rgba(172, 195, 189, 0.205);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success-content{
+    background: #0b811b;
+    padding: 40px 20px;
+    border-radius: 10px;
+    font-family: var(--ff2);
+    color: #ffffff;
+    width: 500px;
+    text-align: center;
+}
+.success-content h1{
+    font-size: 20px;
+}
+
+.btn-success{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    border: none;
+}
+.btn-success:hover{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+}
+.color-icon{
+    line-height: 30px;
+    color: #0b811b;
+}
+.active-mb-corporate::after  {
+    content: " ";
+    position: absolute;
+    top: 21px;    
+    left: -13px;
+    background: #9FC7BA ;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    -webkit-clip-path: ellipse(19% 50% at 50% 50%);
+    clip-path: ellipse(19% 50% at 50% 50%);
+    transform: rotate(-30deg);
+    }
+.active-tab::before  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 20px;
+    height: 15px;
+    background: url(../images/leep.png) no-repeat center ;
+    
+  }

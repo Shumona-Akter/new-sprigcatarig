@@ -14,6 +14,17 @@
 }
 
 /*  */
+.slide-img{
+    /* width: 400px; */
+    height: 140px;
+    margin: 0 10px;
+}
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 a{
     text-decoration: none;
     display: inline-block;
@@ -383,13 +394,15 @@ nab ebebeebe==========
 }
 
 .mobile-nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     transition: all linear 0.4s;
-    display: none;
     opacity: 0;
+    z-index: 99;
 }
 .mobile-nav.is-active{
-    display: block;
     opacity: 1;
 }
 .mobile-nav a{
@@ -405,6 +418,8 @@ nab ebebeebe==========
     border-top: 1px solid #CAD6D3;
    
 }
+
+
 
 .mobile-nav a:hover {
     color: var(--white-cl);

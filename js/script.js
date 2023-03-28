@@ -22,7 +22,7 @@ for (let i = 0; i < subMb.length; i++) {
 
 $('.center-div').slick({
     centerMode: true,
-    centerPadding: '60px',
+    centerPadding: '10px',
     // slidesToShow: 3,
     slidesToShow: 3,
     slidesToScroll: 1,

@@ -400,10 +400,12 @@ nab ebebeebe==========
     text-align: center;
     transition: all linear 0.4s;
     opacity: 0;
+    visibility: hidden;
     z-index: 99;
 }
 .mobile-nav.is-active{
     opacity: 1;
+    visibility: visible;
 }
 .mobile-nav a{
     background: var(--primary-cl);

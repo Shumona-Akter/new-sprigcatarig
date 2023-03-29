@@ -276,4 +276,7 @@
 .event-heading{
     padding-top: 0;
 }
+.active-mb-corporate::after  {
+    top: 0;  
+}
 } 

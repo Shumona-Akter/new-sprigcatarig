@@ -521,3 +521,82 @@ nab ebebeebe==========
   .margib-bottom{
     margin-bottom: 200px;
   }
+
+
+  /* mb corporate */
+
+  .active-corporate-mb::after  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 20px;
+    padding: 10px;
+    background: url(../images/leep.png) no-repeat center ;
+    
+  }
+  .active-corporate-mb::before  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px;
+    height: 1px;
+    background-color: #9FC7BA;
+    
+  }
+
+
+  .active-social-mb::after  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 70px;
+    width: 20px;
+    padding: 10px;
+    background: url(../images/leep.png) no-repeat center ;
+    
+  }
+  .active-social-mb::before  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 1px;
+    background-color: #9FC7BA;
+    
+  }
+  .active-corporate-mb-event::before  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px;
+    height: 1px;
+    background-color: #9FC7BA;
+    
+  }
+
+  .active-cooking-mb::before  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125px;
+    height: 1px;
+    background-color: #9FC7BA;
+    
+  }
+
+
+  .active-cooking-mb::after  {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: 20px;
+    padding: 10px;
+    background: url(../images/leep.png) no-repeat center ;
+    
+  }

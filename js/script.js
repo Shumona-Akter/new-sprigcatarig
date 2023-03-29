@@ -93,7 +93,13 @@ $('.center-div').slick({
       const counterDown = document.getElementById('counter-down');
       counterDown.addEventListener('click', function(){
         const inputField = document.getElementById("input-field");
-        inputCounter = inputCounter - 1;
+        
+        if(inputCounter === 0){
+          return inputCounter
+        }
+        else{
+          inputCounter = inputCounter - 1;
+        }
         inputField.value = inputCounter;
       });
   document.getElementById('submit-btn').addEventListener('click', function(){

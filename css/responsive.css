@@ -138,6 +138,28 @@
     .margin{
         margin:  0;
     }
+    .active-corporate-mb::after  {
+        top: 20px;
+        
+      }
+
+      .active-social-mb::before  {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 55px;
+        height: 1px;
+        background-color: #9FC7BA;
+        
+      }
+      .active-social-mb::after  {
+        top: 20px;
+        
+      }
+      .active-cooking-mb::after  {
+        top: 20px;
+      }
    
     
 } 
@@ -249,5 +271,9 @@
     }
     .margin{
     margin:  0;
+    
+}
+.event-heading{
+    padding-top: 0;
 }
 } 
